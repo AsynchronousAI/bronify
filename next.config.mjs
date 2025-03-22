@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 // This is the main Next.js configuration file for static exporting
 const nextConfig = {
-  output: 'export', // Enable static export
   images: {
     unoptimized: true, // Required for static export
     domains: ['your-media-storage-domain.com'], // Add your storage domain
